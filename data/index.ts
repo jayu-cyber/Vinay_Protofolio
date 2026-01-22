@@ -62,18 +62,14 @@ export const galleryImages = [
   { src: "/images/wed5.JPG", category: "Wedding" },
   { src: "/images/wed6.JPG", category: "Wedding" },
   { src: "/images/wed121.JPG", category: "Wedding" },
-  { src: "/images/wed2132.JPG", category: "Wedding" },
-  { src: "/images/wed2212.JPG", category: "Wedding" },
-  { src: "/images/wed2322.JPG", category: "Wedding" },
 
   // Pre-wedding Images
   { src: "/images/pre.JPG", category: "Pre-wedding" },
   { src: "/images/pre2.JPG", category: "Pre-wedding" },
   { src: "/images/pre3.JPG", category: "Pre-wedding" },
-  { src: "/images/pre5.JPG", category: "Pre-wedding" },
   { src: "/images/pre8.JPG", category: "Pre-wedding" },
   { src: "/images/pre9.JPG", category: "Pre-wedding" },
-  { src: "/images/pre32.JPG", category: "Pre-wedding" },
+  { src: "/images/pre2321.JPG", category: "Pre-wedding" },
 ];
 
 export const testimonials = [
