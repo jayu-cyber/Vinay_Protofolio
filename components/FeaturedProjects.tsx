@@ -44,16 +44,9 @@ export default function FeaturedProjects() {
                 <span className="text-primary text-sm uppercase tracking-wider mb-2">{project.category}</span>
                 <h3 className="text-2xl font-bold text-white mb-2">{project.title}</h3>
                 <p className="text-gray-300 text-sm mb-4">{project.description}</p>
-                {project.video && (
-                  <div className="mb-2">
-                     <video src={project.video} controls className="w-full h-auto rounded-md" />
-                  </div>
-                )}
-                {!project.video && (
-                  <div className="flex items-center text-white">
-                    <FaPlay className="mr-2 text-xs" /> View Project
-                  </div>
-                )}
+                <div className="flex items-center text-white">
+                  <FaPlay className="mr-2 text-xs" /> View Project
+                </div>
               </div>
             </motion.div>
           ))}
